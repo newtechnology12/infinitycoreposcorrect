@@ -12,10 +12,11 @@ export default defineConfig({
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
-  },
+  },  
   build: {
     outDir: "dist",  
-    sourcemap: true, 
+    sourcemap: process.env.NODE_ENV !== "production", 
     chunkSizeWarningLimit: 1600, 
   },
+  
 });

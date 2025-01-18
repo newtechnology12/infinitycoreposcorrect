@@ -15,7 +15,7 @@ pocketbase/pocketbase.exe
 pnpm-lock.yaml
 
 node_modules
-# dist
+dist
 dev-dist
 dist-ssr
 *.local

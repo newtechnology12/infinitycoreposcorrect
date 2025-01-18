@@ -15,8 +15,10 @@ const nextConfig = {
           path: false,
         };
       }
+      config.devtool = 'source-map'; // Ensure source maps are generated
       return config;
     },
+    distDir: 'dist', // Set the output directory to 'dist'
   };
   
   module.exports = nextConfig;

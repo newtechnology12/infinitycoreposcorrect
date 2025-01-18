@@ -1,0 +1,952 @@
+[
+  {
+    "parent": "Dashboard",
+    "children": [
+      {
+        "access": false,
+        "name": "view_dashboard",
+        "title": "View dashboard"
+      }
+    ]
+  },
+  {
+    "parent": "Portals",
+    "children": [
+      {
+        "access": false,
+        "name": "access_pos",
+        "title": "Access POS"
+      },
+      {
+        "access": false,
+        "name": "access_kitchen_display",
+        "title": "Access kitchen display"
+      }
+    ]
+  },
+  {
+    "parent": "Orders",
+    "children": [
+      {
+        "access": false,
+        "name": "view_orders",
+        "title": "View orders"
+      },
+      {
+        "access": false,
+        "name": "view_orders_total",
+        "title": "View orders total"
+      },
+      {
+        "access": false,
+        "name": "view_order_details",
+        "title": "View order details"
+      },
+      {
+        "access": false,
+        "name": "process_order_payment",
+        "title": "can process order payment"
+      }
+    ]
+  },
+  {
+    "parent": "Order Tickets",
+    "children": [
+      {
+        "access": false,
+        "name": "complete_ticket",
+        "title": "Allow to complete a ticket"
+      },
+      {
+        "access": false,
+        "name": "modify_ticket_items",
+        "title": "Allow to modify a ticket items"
+      },
+      {
+        "access": false,
+        "name": "reprint_ticket",
+        "title": "Allow to reprint a ticket"
+      }
+    ]
+  },
+  {
+    "parent": "Order items",
+    "children": [
+      {
+        "access": false,
+        "name": "cancel_items",
+        "title": "Allow to cancel order items"
+      },
+      {
+        "access": false,
+        "name": "delete_order_items",
+        "title": "Allow to delete draft order items"
+      }
+    ]
+  },
+  {
+    "parent": "Transactions",
+    "children": [
+      {
+        "access": false,
+        "name": "view_transactions",
+        "title": "View transactions"
+      },
+      {
+        "access": false,
+        "name": "view_work_period_transactions",
+        "title": "View work period transactions"
+      },
+      {
+        "access": false,
+        "name": "view_work_period_orders",
+        "title": "View work period orders"
+      }
+    ]
+  },
+  {
+    "parent": "Reservations",
+    "children": [
+      {
+        "access": false,
+        "name": "view_reservations",
+        "title": "View reservations"
+      },
+      {
+        "access": false,
+        "name": "create_reservation",
+        "title": "Create reservation"
+      },
+      {
+        "access": false,
+        "name": "update_reservation",
+        "title": "Update reservation"
+      },
+      {
+        "access": false,
+        "name": "delete_reservation",
+        "title": "Delete reservation"
+      }
+    ]
+  },
+  {
+    "parent": "Categories",
+    "children": [
+      {
+        "access": false,
+        "name": "view_categories",
+        "title": "View categories"
+      },
+      {
+        "access": false,
+        "name": "create_category",
+        "title": "Create category"
+      },
+      {
+        "access": false,
+        "name": "update_category",
+        "title": "Update category"
+      }
+    ]
+  },
+  {
+    "parent": "Menu Items",
+    "children": [
+      {
+        "access": false,
+        "name": "view_menu_items",
+        "title": "View menu items"
+      },
+      {
+        "access": false,
+        "name": "create_menu_item",
+        "title": "Create menu item"
+      },
+      {
+        "access": false,
+        "name": "update_menu_item",
+        "title": "Update menu item"
+      }
+    ]
+  },
+  {
+    "parent": "Ingredients",
+    "children": [
+      {
+        "access": false,
+        "name": "view_ingredients",
+        "title": "View ingredients"
+      },
+      {
+        "access": false,
+        "name": "create_ingredient",
+        "title": "Create ingredient"
+      },
+      {
+        "access": false,
+        "name": "update_ingredient",
+        "title": "Update ingredient"
+      }
+    ]
+  },
+  {
+    "parent": "Work Periods",
+    "children": [
+      {
+        "access": false,
+        "name": "view_work_periods",
+        "title": "View Work Periods"
+      },
+      {
+        "access": false,
+        "name": "view_work_periods_shifts",
+        "title": "View work periods shifts"
+      },
+      {
+        "access": false,
+        "name": "view_work_period_total_sales",
+        "title": "View work period total sales"
+      },
+      {
+        "access": false,
+        "name": "create_work_period_shift_report",
+        "title": "Create work period shift report"
+      },
+      {
+        "access": false,
+        "name": "update_work_period_shift_report",
+        "title": "Update work period shift report"
+      },
+      {
+        "access": false,
+        "name": "view_work_period_shift_report",
+        "title": "view work period shift report"
+      },
+      {
+        "access": false,
+        "name": "view_work_period_general_report",
+        "title": "View work period general report"
+      }
+    ]
+  },
+  {
+    "parent": "Payment Methods",
+    "children": [
+      {
+        "access": false,
+        "name": "view_payment_methods",
+        "title": "View payment methods"
+      },
+      {
+        "access": false,
+        "name": "create_payment_method",
+        "title": "Create payment method"
+      },
+      {
+        "access": false,
+        "name": "update_payment_method",
+        "title": "Update payment method"
+      }
+    ]
+  },
+  {
+    "parent": "Customers",
+    "children": [
+      {
+        "access": false,
+        "name": "view_customers",
+        "title": "View customers"
+      },
+      {
+        "access": false,
+        "name": "create_customer",
+        "title": "Create customer"
+      },
+      {
+        "access": false,
+        "name": "update_customer",
+        "title": "Update customer"
+      }
+    ]
+  },
+  {
+    "parent": "Suppliers",
+    "children": [
+      {
+        "access": false,
+        "name": "view_suppliers",
+        "title": "View suppliers"
+      },
+      {
+        "access": false,
+        "name": "create_supplier",
+        "title": "Create supplier"
+      },
+      {
+        "access": false,
+        "name": "update_supplier",
+        "title": "Update supplier"
+      }
+    ]
+  },
+  {
+    "parent": "Purchases",
+    "children": [
+      {
+        "access": false,
+        "name": "view_purchase_orders",
+        "title": "View purchases"
+      },
+      {
+        "access": false,
+        "name": "view_purchase_details",
+        "title": "View purchase details"
+      },
+      {
+        "access": false,
+        "name": "update_purchase_order",
+        "title": "Update purchase"
+      },
+      {
+        "access": false,
+        "name": "recieve_purchase",
+        "title": "Recieve purchase"
+      },
+      {
+        "access": false,
+        "name": "create_purchase_payment",
+        "title": "Create Purchase Payment"
+      },
+      {
+        "access": false,
+        "name": "delete_purchase_payment",
+        "title": "Delete Purchase Payment"
+      },
+      {
+        "access": false,
+        "name": "view_purchase_payments",
+        "title": "view purchase payments"
+      }
+    ]
+  },
+  {
+    "parent": "Requisitions",
+    "children": [
+      {
+        "access": false,
+        "name": "view_requisitions_orders",
+        "title": "View requisitions"
+      },
+      {
+        "access": false,
+        "name": "view_all_requisition_orders",
+        "title": "View all requisitions"
+      },
+      {
+        "access": false,
+        "name": "create_requisition",
+        "title": "Create Requisition"
+      },
+      {
+        "access": false,
+        "name": "approve_reject_requisition",
+        "title": "Approve or reject requisition"
+      }
+    ]
+  },
+  {
+    "parent": "Stocks",
+    "children": [
+      {
+        "access": false,
+        "name": "view_stocks",
+        "title": "View stocks"
+      },
+      {
+        "access": false,
+        "name": "view_all_stocks",
+        "title": "View all stocks"
+      },
+      {
+        "access": false,
+        "name": "create_stock",
+        "title": "Create stock"
+      },
+      {
+        "access": false,
+        "name": "update_stock",
+        "title": "Update stock"
+      }
+    ]
+  },
+  {
+    "parent": "Assets",
+    "children": [
+      {
+        "access": false,
+        "name": "view_assets",
+        "title": "View assets"
+      },
+      {
+        "access": false,
+        "name": "create_assets",
+        "title": "Create assets"
+      },
+      {
+        "access": false,
+        "name": "update_assets",
+        "title": "Update assets"
+      }
+    ]
+  },
+  {
+    "parent": "Assets Categories",
+    "children": [
+      {
+        "access": false,
+        "name": "view_assets_categories",
+        "title": "View assets categories"
+      },
+      {
+        "access": false,
+        "name": "create_assets_category",
+        "title": "Create assets category"
+      },
+      {
+        "access": false,
+        "name": "update_assets_category",
+        "title": "Update assets category"
+      }
+    ]
+  },
+  {
+    "parent": "Assets Types",
+    "children": [
+      {
+        "access": false,
+        "name": "view_assets_types",
+        "title": "View assets types"
+      },
+      {
+        "access": false,
+        "name": "create_assets_type",
+        "title": "Create assets type"
+      },
+      {
+        "access": false,
+        "name": "update_assets_type",
+        "title": "Update assets type"
+      }
+    ]
+  },
+  {
+    "parent": "Adjustments",
+    "children": [
+      {
+        "access": false,
+        "name": "view_adjustments",
+        "title": "View adjustments"
+      },
+      {
+        "access": false,
+        "name": "create_adjustment",
+        "title": "Create adjustment"
+      },
+      {
+        "access": false,
+        "name": "update_adjustment",
+        "title": "Update adjustment"
+      }
+    ]
+  },
+  {
+    "parent": "Transfers",
+    "children": [
+      {
+        "access": false,
+        "name": "view_transfers",
+        "title": "View transfers"
+      },
+      {
+        "access": false,
+        "name": "create_transfer",
+        "title": "Create transfer"
+      },
+      {
+        "access": false,
+        "name": "update_transfer",
+        "title": "Update transfer"
+      }
+    ]
+  },
+  {
+    "parent": "Stock Levels",
+    "children": [
+      {
+        "access": false,
+        "name": "view_stock_levels",
+        "title": "View stock levels"
+      },
+      {
+        "access": false,
+        "name": "view_low_stock_levels",
+        "title": "View low stock levels"
+      }
+    ]
+  },
+  {
+    "parent": "Employees",
+    "children": [
+      {
+        "access": false,
+        "name": "view_employees",
+        "title": "View employees"
+      },
+      {
+        "access": false,
+        "name": "view_departments",
+        "title": "View departments"
+      },
+      {
+        "access": false,
+        "name": "create_employee",
+        "title": "Create employee"
+      },
+      {
+        "access": false,
+        "name": "update_employee",
+        "title": "Update employee"
+      },
+      {
+        "access": false,
+        "name": "update_employee_role",
+        "title": "Update employee_role"
+      },
+      {
+        "access": false,
+        "name": "update_employee_status",
+        "title": "Update employee status"
+      },
+      {
+        "access": false,
+        "name": "update_employee_password",
+        "title": "Update employee password"
+      }
+    ]
+  },
+  {
+    "parent": "Leaves",
+    "children": [
+      {
+        "access": false,
+        "name": "view_leaves",
+        "title": "View leaves"
+      },
+      {
+        "access": false,
+        "name": "create_leave",
+        "title": "Create leave"
+      },
+      {
+        "access": false,
+        "name": "update_leave",
+        "title": "Update leave"
+      }
+    ]
+  },
+  {
+    "parent": "Attendance",
+    "children": [
+      {
+        "access": false,
+        "name": "view_attendance",
+        "title": "View attendance"
+      },
+      {
+        "access": false,
+        "name": "create_attendance",
+        "title": "Create attendance"
+      },
+      {
+        "access": false,
+        "name": "update_attendance",
+        "title": "Update attendance"
+      },
+      {
+        "access": false,
+        "name": "view_attendance_report",
+        "title": "View attendance report"
+      }
+    ]
+  },
+  {
+    "parent": "Expenses",
+    "children": [
+      {
+        "access": false,
+        "name": "view_expenses",
+        "title": "View expenses"
+      },
+      {
+        "access": false,
+        "name": "create_expense",
+        "title": "Create expense"
+      },
+      {
+        "access": false,
+        "name": "update_expense",
+        "title": "Update expense"
+      },
+      {
+        "access": false,
+        "name": "delete_expense",
+        "title": "delete expense"
+      },
+      {
+        "access": false,
+        "name": "view_expense_total",
+        "title": "view expense total"
+      }
+    ]
+  },
+  {
+    "parent": "Daily reports",
+    "children": [
+      {
+        "access": false,
+        "name": "view_daily_reports",
+        "title": "View daily reports"
+      },
+      {
+        "access": false,
+        "name": "view_all_daily_reports",
+        "title": "View all daily reports"
+      }
+    ]
+  },
+  {
+    "parent": "Stock audits",
+    "children": [
+      {
+        "access": false,
+        "name": "view_stock_audits",
+        "title": "View stock audits"
+      },
+      {
+        "access": false,
+        "name": "view_all_stock_audits",
+        "title": "View all stock audits"
+      },
+      {
+        "access": false,
+        "name": "create_stock_audit",
+        "title": "Create stock audit"
+      }
+    ]
+  },
+  {
+    "parent": "Expenses Categories",
+    "children": [
+      {
+        "access": false,
+        "name": "view_expenses_categories",
+        "title": "View expenses categories"
+      },
+      {
+        "access": false,
+        "name": "create_expense_category",
+        "title": "Create expense category"
+      },
+      {
+        "access": false,
+        "name": "update_expense_category",
+        "title": "Update expense category"
+      }
+    ]
+  },
+  {
+    "parent": "Departments",
+    "children": [
+      {
+        "access": false,
+        "name": "view_departments",
+        "title": "View departments"
+      },
+      {
+        "access": false,
+        "name": "create_department",
+        "title": "Create department"
+      },
+      {
+        "access": false,
+        "name": "update_department",
+        "title": "Update department"
+      }
+    ]
+  },
+  {
+    "parent": "Cashier Reports",
+    "children": [
+      {
+        "access": false,
+        "name": "view_cashier_reports",
+        "title": "View cashier reports"
+      },
+      {
+        "access": false,
+        "name": "view_expenses_report",
+        "title": "View expenses report"
+      },
+      {
+        "access": false,
+        "name": "view_cachier_report_details",
+        "title": "view cashier report details"
+      }
+    ]
+  },
+  {
+    "parent": "Sales",
+    "children": [
+      {
+        "access": false,
+        "name": "view_sales_by_tables",
+        "title": "View sales by tables"
+      },
+      {
+        "access": false,
+        "name": "view_sales_report",
+        "title": "View sales report"
+      },
+      {
+        "access": false,
+        "name": "view_tickets_report",
+        "title": "View tickets report"
+      },
+      {
+        "access": false,
+        "name": "view_waiter_sales_report",
+        "title": "View waiter sales report"
+      },
+      {
+        "access": false,
+        "name": "view_ingredients_report",
+        "title": "View ingredients report"
+      },
+      {
+        "access": false,
+        "name": "view_sales_by_items",
+        "title": "View sales by items"
+      },
+      {
+        "access": false,
+        "name": "view_sales_items_report",
+        "title": "View sales items report"
+      },
+      {
+        "access": false,
+        "name": "view_sales_items_report_total",
+        "title": "View sales items report total"
+      },
+      {
+        "access": false,
+        "name": "view_cancellations_report",
+        "title": "View cancellations report"
+      }
+    ]
+  },
+  {
+    "parent": "Employee Credits",
+    "children": [
+      {
+        "access": false,
+        "name": "view_employee_credits",
+        "title": "View employee credits"
+      },
+      {
+        "access": false,
+        "name": "create_employee_credit",
+        "title": "Create employee credit"
+      },
+      {
+        "access": false,
+        "name": "update_employee_credit",
+        "title": "Update employee credit"
+      }
+    ]
+  },
+  {
+    "parent": "Customer Credits",
+    "children": [
+      {
+        "access": false,
+        "name": "view_customer_credits",
+        "title": "View customer credits"
+      },
+      {
+        "access": false,
+        "name": "create_customer_credit",
+        "title": "Create customer credit"
+      },
+      {
+        "access": false,
+        "name": "update_customer_credit",
+        "title": "Update customer credit"
+      }
+    ]
+  },
+  {
+    "parent": "Tables",
+    "children": [
+      {
+        "access": false,
+        "name": "view_tables",
+        "title": "View tables"
+      },
+      {
+        "access": false,
+        "name": "create_table",
+        "title": "Create table"
+      }
+    ]
+  },
+  {
+    "parent": "Order Stations",
+    "children": [
+      {
+        "access": false,
+        "name": "view_order_stations",
+        "title": "View order stations"
+      },
+      {
+        "access": false,
+        "name": "create_order_station",
+        "title": "Create order station"
+      }
+    ]
+  },
+  {
+    "parent": "Discounts",
+    "children": [
+      {
+        "access": false,
+        "name": "view_discounts",
+        "title": "View discounts"
+      },
+      {
+        "access": false,
+        "name": "create_discount",
+        "title": "Create discount"
+      },
+      {
+        "access": false,
+        "name": "update_discount",
+        "title": "Update discount"
+      }
+    ]
+  },
+  {
+    "parent": "Backup & Restore",
+    "children": [
+      {
+        "access": false,
+        "name": "handle_backups",
+        "title": "Handle Backups"
+      }
+    ]
+  },
+  {
+    "parent": "Reports",
+    "children": [
+      {
+        "access": false,
+        "name": "view_profit_and_loss",
+        "title": "View profit and loss"
+      }
+    ]
+  },
+  {
+    "parent": "Payrolls",
+    "children": [
+      {
+        "access": false,
+        "name": "view_payrolls",
+        "title": "View payrolls"
+      },
+      {
+        "access": false,
+        "name": "create_payroll",
+        "title": "Create payroll"
+      },
+      {
+        "access": false,
+        "name": "view_payroll_detail",
+        "title": "View payroll detail"
+      }
+    ]
+  },
+  {
+    "parent": "Invoices",
+    "children": [
+      {
+        "access": false,
+        "name": "print_invoices",
+        "title": "Can print invoices"
+      }
+    ]
+  },
+  {
+    "parent": "Bills",
+    "children": [
+      {
+        "access": false,
+        "name": "re_print_bills",
+        "title": "Can re-print bill"
+      },
+      {
+        "access": false,
+        "name": "print_full_bill",
+        "title": "Can print full bill"
+      }
+    ]
+  },
+  {
+    "parent": "Other",
+    "children": [
+      {
+        "access": false,
+        "name": "view_contractors",
+        "title": "View contractors"
+      },
+      {
+        "access": false,
+        "name": "view_activity_logs",
+        "title": "View activity logs"
+      },
+      {
+        "access": false,
+        "name": "view_in_and_out",
+        "title": "View in out"
+      },
+      {
+        "access": false,
+        "name": "record_in_and_out",
+        "title": "Record in out"
+      }
+    ]
+  },
+  {
+    "parent": "General Settings",
+    "children": [
+      {
+        "access": false,
+        "name": "general_settings",
+        "title": "General settings"
+      },
+      {
+        "access": false,
+        "name": "import_data",
+        "title": "Import data"
+      }
+    ]
+  }
+]
